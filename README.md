@@ -1,3 +1,7 @@
+# Terra mode
+
+An Emacs major mode for Terra based on lua-mode.
+
 # Lua mode
 
 [![Build Status](https://travis-ci.org/immerrr/lua-mode.svg?branch=master)](https://travis-ci.org/immerrr/lua-mode)
