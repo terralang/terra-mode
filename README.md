@@ -1,6 +1,6 @@
 # Terra mode
 
-An Emacs major mode for Terra based on lua-mode.
+An Emacs major mode for Terra based on [lua-mode](https://github.com/immerrr/lua-mode).
 
 # Lua mode
 
