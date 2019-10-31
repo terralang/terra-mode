@@ -1069,7 +1069,7 @@ ignored, nil otherwise."
     ("while"    "\\_<do\\_>"    nil                                       open)
     ("else"     "\\_<end\\_>"   "\\_<then\\_>"                              middle)
     ("elseif"   "\\_<then\\_>"  "\\_<then\\_>"                              middle)
-    ("end"      nil           "\\_<\\(do\\|function\\|then\\|else\\|quote\\|terra\\)\\_>" close) ;; Terra keywords
+    ("end"      nil           "\\_<\\(do\\|function\\|then\\|else\\|escape\\|quote\\|terra\\)\\_>" close) ;; Terra keywords
     ("until"    nil           "\\_<repeat\\_>"                            close)
     ("}"        nil           "{"                                       close)
     ("]"        nil           "\\["                                     close)
