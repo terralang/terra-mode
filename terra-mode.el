@@ -136,7 +136,11 @@
                      (opt (regexp "[eE][+-]?[0-9]+"))))
            (terra-assignment-op (seq "=" (or buffer-end (not (any "=")))))
            (terra-token (or "+" "-" "*" "/" "%" "^" "#" "==" "~=" "<=" ">=" "<"
-                       ">" "=" ";" ":" "," "." ".." "..."))
+                       ">" "=" ";" ":" "," "." ".." "..."
+
+                       ;; Terra tokens
+                       "`" "@"
+                       ))
            (terra-keyword
             (symbol "and" "break" "do" "else" "elseif" "end"  "for" "function"
                     "goto" "if" "in" "local" "not" "or" "repeat" "return"
