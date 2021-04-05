@@ -147,7 +147,7 @@ element is itself expanded with `terra-rx-to-string'. "
     (setq form (if (eq 1 (length form))
                    (car form)
                  (append '(or) form)))
-    (rx-form `(seq symbol-start ,form symbol-end) rx-parent))
+    (rx-to-string `(seq symbol-start ,form symbol-end)))
 
   (setq terra-rx-constituents (copy-sequence rx-constituents))
 
